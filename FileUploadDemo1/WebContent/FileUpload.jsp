@@ -10,8 +10,7 @@
 <html>
 <body>
 	<%
-		String name = request.getParameter("name");
-		 		
+		String name = request.getParameter("name");		 		
 	try
 	{				
 				Connection con = DBConnection.getConnection();
